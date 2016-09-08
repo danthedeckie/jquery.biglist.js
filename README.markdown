@@ -18,6 +18,8 @@ sort, but I'm sure you can find other uses for it!
 
 ## html:
 
+```html
+
     <select id="template">
         <option value="banana">Banana!</option>
         <option value="peach">Peach!</option>
@@ -31,9 +33,13 @@ sort, but I'm sure you can find other uses for it!
     <label>Most Smelly Fruit:
     <select class="use_tmpl"><option value="durian">Durian!</option></select></label>
 
+```
+
 ## JS:
 
+```javascript
     $('select.use_tmpl').biglist('#template');
+```
 
 # Licence:
 
